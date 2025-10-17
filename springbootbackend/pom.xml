@@ -12,6 +12,7 @@
 	<artifactId>springbootbackend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springbootbackend</name>
+	<packaging>war</packaging>
 	<description>Spring Boot Backend Project</description>
 	<url/>
 	<licenses>
@@ -63,6 +64,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>fstack</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
